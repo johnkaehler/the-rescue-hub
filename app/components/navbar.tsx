@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-white text-2xl font-bold">
-          MyApp
+          Welcome to the Rescue Hub!
         </Link>
 
         {/* Hamburger Menu for Mobile */}
@@ -46,8 +46,8 @@ const Navbar = () => {
           <Link href="/about" className="text-white hover:text-gray-200">
             About
           </Link>
-          <Link href="/services" className="text-white hover:text-gray-200">
-            Services
+          <Link href="/johnstagram" className="text-white hover:text-gray-200">
+            Johnstagram
           </Link>
           <Link href="/contact" className="text-white hover:text-gray-200">
             Contact
