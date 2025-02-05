@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-600 p-4">
+    <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-white text-2xl font-bold">
@@ -49,8 +49,8 @@ const Navbar = () => {
           <Link href="/johnstagram" className="text-white hover:text-gray-200">
             Johnstagram
           </Link>
-          <Link href="/contact" className="text-white hover:text-gray-200">
-            Contact
+          <Link href="/login" className="text-white hover:text-gray-200">
+            Login
           </Link>
         </div>
       </div>
